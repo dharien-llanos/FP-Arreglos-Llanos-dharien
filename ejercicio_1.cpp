@@ -14,3 +14,12 @@ void poner_mayusculasiniciales(char cadena[]) {
     }
 }
 
+int main() {
+    char array[100];
+   cout<<"Ingrese una oracion: ";
+    cin.getline(array,100);
+    poner_mayusculasiniciales(array);
+    cout<<array<<endl;
+
+    return 0;
+}
